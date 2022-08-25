@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="autor" content="Mohammad Ehsan Aryan" />
+    <!-- <meta name="keywords" content="" /> -->
+    <!-- <meta name="description" content="" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./myStyle.css" />
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="parent-div">
+        <section class="insert-section">
+            <input type="text" id="city-input" placeholder="Enter the city name..." />
+            <button type="button" id="submit-btn">Submit</button>
+        </section>
+
+        <section class="result-section">
+            <div class="info-div">
+                <span class="span-label">City :</span>
+                <span id="city-name" class="info-label">-</span>
+            </div>
+            <div class="info-div">
+                <span class="span-label">Country :</span>
+                <span id="country-name" class="info-label">-</span>
+            </div>
+            <div class="info-div">
+                <span class="span-label">Temperature :</span>
+                <span id="temp" class="info-label">-</span>
+            </div>
+            <div class="info-div">
+                <span class="span-label">Wind Speed :</span>
+                <span id="wind" class="info-label">-</span>
+            </div>
+        </section>
+    </div>
+    
+    <script type="text/javascript" src="./weather-app.js"></script>
+</body>
+</html>

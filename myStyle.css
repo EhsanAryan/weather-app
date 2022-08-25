@@ -1,0 +1,138 @@
+body {
+    background: url('./Pics/mountain.jpg') no-repeat fixed;
+    background-size: cover;
+    margin: 0
+}
+
+.parent-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insert-section {
+    border: 3px solid rgb(2, 170, 2);
+    background-color: black;
+    /* padding: 10px;
+    box-sizing: border-box; */
+    min-width: 230px;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#city-input {
+    padding: 7px 12px;
+    width: 60%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+
+#city-input:focus {
+    box-shadow: 0px 0px 20px rgb(1, 205, 1) , 0px 0px 15px rgb(1, 205, 1);
+}
+
+#city-input::placeholder {
+    color:rgba(5, 99, 5, 0.7);
+}
+
+#submit-btn {
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: 3px solid rgb(2, 170, 2);
+    font-size: 20px;
+    font-family: monospace;
+    transition: 0.2s ease-out;
+}
+
+#submit-btn:hover {
+    background-color: rgb(2, 170, 2);
+    color: white;
+    border-color: black;
+}
+
+#submit-btn:active {
+    background-color: black;
+    color: white;
+    border-color: rgb(2, 170, 2);
+    transition: none;
+}
+
+
+.result-section {
+    border: 3px solid rgb(2, 170, 2);
+    border-left: none;
+    background-color: black;
+    /* padding: 10px;
+    box-sizing: border-box; */
+    min-width: 230px;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.7s ease-out;
+}
+
+.info-div {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-section:hover {
+    background-color: rgb(2, 170, 2);
+    border-color: black;
+    transition: 0.7s ease-out 1s;
+}
+
+.span-label {
+    text-align: center;
+    color: rgb(2, 170, 2);
+    font-size: 25px;
+    font-family: monospace;
+    transition: 0.7s ease-out;
+}
+
+.result-section:hover .span-label {
+    color: black;
+    transition: 0.7s ease-out 1s;
+}
+
+
+.info-label {
+    background-color: rgb(2, 170, 2);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-family: monospace;
+    transition: 0.7s ease-out;
+}
+
+.result-section:hover .info-label {
+    background-color: black;
+    color: rgb(2, 170, 2);
+    transition: 0.7s ease-out 1s;
+}
+
+
+
+
+
